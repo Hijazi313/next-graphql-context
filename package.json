@@ -1,0 +1,43 @@
+{
+  "name": "next-graphql-context",
+  "version": "0.1.0",
+  "engines": {
+    "node": "15.5.1",
+    "npm": "7.0.2"
+  },
+  "description": "An implementation of Next.js to get started with Apollo GraphQL Client and Context API for managing  simple state and utilise apollo client to enjoy the benefits of SSR and SSG.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hijazi313/next-graphql-context.git"
+  },
+  "keywords": [
+    "next.js",
+    "apollo",
+    "ssg",
+    "ssr",
+    "context",
+    "api",
+    "graphql",
+    "nextjs",
+    "apollo-client"
+  ],
+  "author": "Muhammad Hamza Asif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hijazi313/next-graphql-context/issues"
+  },
+  "homepage": "https://github.com/Hijazi313/next-graphql-context#readme",
+  "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "graphql": "^15.4.0",
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
